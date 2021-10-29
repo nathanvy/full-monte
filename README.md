@@ -1,4 +1,6 @@
-# WTF
+# The Full Monte
+
+## WTF
 
 This is a small program that will apply Monte Carlo trials to stock prices using geometric Brownian motion with constant (and in a future version local or stochastic) dispersion.
 
@@ -8,7 +10,18 @@ If you're writing options on the market, you want to know whether your strikes w
 
 ## Can't you just look at Delta?
 
-You could, but the delta that you get from the BSM model does not include a drift term.  So in a momentum market, Black-Scholes will underestimate the probability of OTM call options expiriing in the money, and overestimate the same for puts.
+You could, but the delta that you get from the BSM model does not include a drift term.  So in a momentum market, Black-Scholes will underestimate the probability of OTM call options expiriing in the money, and overestimate the same for puts
+
+## This is unusable make it cleaner
+
+I will.
+
+Future road map looks like this:
+
+1. Add an easier way to configure and build this thing
+2. Add stochastic volatility (Heston model)
+3. Add local volatility (Dupire's)
+4. Add binary builds for people who don't want to/can't edit code
 
 ## Disclaimer
 
